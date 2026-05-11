@@ -1,0 +1,23 @@
+# TRI Chatbot - Python dependencies
+# Install: pip install -r requirements.txt
+
+# ── Agent core ─────────────────────────────────────────────
+openai>=1.0.0
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+wikipedia>=1.4.0
+duckduckgo-search>=6.0.0
+requests>=2.31.0
+
+# ── Web server ─────────────────────────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── File & image upload support ────────────────────────────
+Pillow>=10.0.0
+
+# ── Document parsing ───────────────────────────────────────
+PyMuPDF>=1.23.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+xlrd>=2.0.1
